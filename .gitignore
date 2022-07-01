@@ -132,3 +132,4 @@ dmypy.json
 *.pdf
 /export
 /import
+/import_archive

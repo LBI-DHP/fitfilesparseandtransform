@@ -2,9 +2,11 @@
 
 ## Get Started
 
+These scripts have been developed and tested (with python 3.9.6) for a specific use case. Therefore, they must always be tested (for your specific use case) before use.
+
 ### Install Python
 
-This script is written in python. To run it, you must first install python. The script was tested with python 3.9.6, but should also work with newer versions.
+This set of scripts is written in python. To run them, you must first install python.
 
 [Download Python here: https://www.python.org/downloads](https://www.python.org/downloads/)
 
@@ -29,5 +31,13 @@ Place the fit files you want to convert in the import folder located in the same
 To convert Garmin Wellness Fit files, run the following command in your Windows Powershell/Terminal or MacOS Terminal (make sure you are on the correct path as described above):
 
 `python .\ParseWellnessFitFiles.py`
+
+Find the converted Excel files in the "export" folder.
+
+### Convert Multiple Garmin Wellness Fit Files to one Excel Summary File (heart rate only, resampled to 1 minute)
+
+To convert Garmin Wellness Fit files, run the following command in your Windows Powershell/Terminal or MacOS Terminal (make sure you are on the correct path as described above):
+
+`python .\ParseWellnessHeartRateSummaryResampledTo1min.py`
 
 Find the converted Excel files in the "export" folder.
